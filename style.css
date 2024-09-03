@@ -62,12 +62,34 @@ body{
 
 h1 {
   display: inline-block;
-  padding: .3%;
+  padding: .5%;
   border-radius: 20px;
   margin-left: 44%;
   color: aliceblue;
   background-color: rgb(156, 101, 207);
   font-size: 300%;
+}
+
+h2{
+  display: flex;
+  font-size: 250%;
+  font-weight: 180;
+  justify-content: center;
+}
+
+/* cards */
+
+.roww{
+  display: flex;
+  flex-direction: row;
+}
+
+.carta{
+  margin: 0 1%;
+}
+
+.cpadding{
+  margin: 4%;
 }
 
 /* formulario */
