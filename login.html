@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <style>
+        body{
+            background-image: url(img/fondo_login.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="justificado">
+        <form action="inicio.html" method="get">
+            <div class="container">
+                <h2 style="color: white;">Contacto</h2>
+                <div class="input-group">
+                    <label for="Nombre">Nombre y Apellido</label>
+                    <input type="text" name="Nombre" id="Nombre" placeholder="Juan Perez" required>
+    
+                    <label for="Telefono">Telefono</label>
+                    <input type="tel" name="Telefono" id="Telefono" placeholder="3364..." required>
+    
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" id="Email" placeholder="example@gmail.com" required>
+    
+                    <label for="Mensaje">Mensaje</label>
+                    <textarea name="Mensaje" id="Mensaje" rows="3" required></textarea>
+                </div>
+    
+                <br>
+    
+                <button type="submit" name="enviar" id="enviar">Enviar</button>
+            </div>
+        </form>
+    </div>
+    
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer>
+        Delizia &copy; 2024 - Todos los derechos reservados
+    </footer>
+
+</body>
+</html>
