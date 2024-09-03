@@ -3,6 +3,7 @@
 body{
   margin: 0;
   padding: 0;
+
 }
 
 /* nav */
@@ -101,6 +102,11 @@ label {
   display: block;
   font-weight: 500;
   font-size: 200%;
+}
+
+hr{
+  background-color: aliceblue;
+  max-width: 55%;
 }
 
 input[type="text"],
